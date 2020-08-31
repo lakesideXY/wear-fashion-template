@@ -1,0 +1,9 @@
+footer{
+    display: flex;
+    flex-direction: "row";
+    padding: 50px 100px;
+    background-color: #ffffff;
+    color: #008;
+}
+.footer{
+}

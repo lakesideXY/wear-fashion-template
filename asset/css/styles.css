@@ -1,9 +1,97 @@
 footer{
     display: flex;
-    flex-direction: "row";
-    padding: 50px 100px;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 103px 107px;
     background-color: #ffffff;
-    color: #008;
+    color: red;
 }
-.footer{
+footer ul li {
+    text-decoration-line: none;
+    text-decoration-style: none;
+    list-style-type:none;
+}
+footer ul li a {
+    color: #3956A2;
+    font-size: 18px;
+    font-weight: normal;
+    font-family: Roboto;
+    list-style-type:none;
+    text-decoration-line: none;
+}
+footer ul li a:hover{
+    color: black;
+    font-size: 20px;
+    list-style-type: square;
+}
+.address{
+    width: 328px;
+    height: 174px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+.handles{
+    width: 327px;
+    height: 174px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #3956A2;
+
+}
+.handles a {
+    color: #3956A2;
+    text-decoration-line: none;
+}
+.handles a:hover {
+    color: #060606;
+    text-decoration-line: none;
+    font-size: 20px;
+    
+}
+.subscribe{
+    width: 264px;
+    height: 149px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+.subscribe p{
+
+}
+.subscribe input[type="text"]{
+    width: 259px;
+    height: 39px;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    justify-content: center;
+    align-content: center;
+    padding: 9px 60px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+}
+.subscribe input[type="submit"]{
+    margin-top: 38px;
+    width: 259px;
+    height: 39px;
+    background: #C4C4C4;
+    color: #3956A2;
+    padding: 9px 60px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
 }

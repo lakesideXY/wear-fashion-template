@@ -1,10 +1,174 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.def{
+    padding: 20px 0px 20px 0px;
+}
+header{
+    margin:0px 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+header .logo{
+    padding: 12px 0px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+header .menu{
+    padding: 12px 0px;
+}
+header .menu ul{
+    display: inline;
+}
+header .menu ul li{
+    display: inline;
+    padding: 12px 10px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: capitalize;
+    list-style-type:none;
+}
+header .menu ul li a{
+    color: black;
+    padding: 5px 5px;
+    text-decoration: none;
+    border-radius: 10px;
+    border-width: 2px;
+}
+header .menu ul li a:hover{
+    background-color: teal;
+    color:#ffffff;
+    padding: 5px 5px;
+    text-decoration: none;
+    border-radius: 10px;
+    border-color: teal;
+    border-width: 2px; 
+}
+section{
+    margin: 0px 100px;
+}
+.banner{
+    margin: 0px 0px;
+    background-image: url(../../img/blog_2.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 600px;
+}
+.banner h1{
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    padding-top: 194px;
+}
+.shop1{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    text-align: center;
+    color: #000000;
+    background: #C4C4C4;
+    border-radius: 50px;
+    padding: 10px;
+    margin: 20px 600px;    
+}
+.product{
+    background: url(../../img/slider-1.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 852px;
+    margin-left: 0px;
+}
+.product h1{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    text-align: center;
+    color: #000000;
+}
+.product img{
+    max-width: 340px;
+    max-height: 440px;
+    padding-top: 130px;
+    margin-bottom: 50px;
+}
+.shop2{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    text-align: center;
+    color: #000000;
+    background: #C4C4C4;
+    border-radius: 50px;
+    padding: 10px;
+    margin: 10px 600px;
+}
+.blog{
+    padding: 20px;
+    margin: 40px;
+}
+.blog img{
+    padding-right: 10px;
+}
+.product-2{
+    margin: 0px 0px 50px 0px;
+}
+.product-2 img{
+    padding-right: 130px;
+}
+.feature{
+    background-color: #EEE7E7;
+    padding: 60px;
+}
+.feature h1{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    color: #000000;
+    padding-top: 0px;
+}
+.feature img{
+    width: 338px;
+    padding: 20px;
+}
+.shop3{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    text-align: center;
+    color: #000000;
+    background: #C4C4C4;
+    border-radius: 50px;
+    padding: 10px;
+    margin: 10px 450px;
+}
+.service{
+    padding: 80px 0px 0px 0px;
+}
+.service p{
+    display: inline;
+    padding: 120px;
+}
 footer{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    padding: 103px 107px;
     background-color: #ffffff;
     color: red;
+    margin: 0px 100px;
+    padding-top: 40px;
+}
+.footer ul{
+    padding: 0px;
 }
 footer ul li {
     text-decoration-line: none;
@@ -33,6 +197,7 @@ footer ul li a:hover{
     font-size: 18px;
     line-height: 21px;
     color: #000000;
+    padding: 10px;
 }
 .handles{
     width: 327px;
@@ -43,7 +208,7 @@ footer ul li a:hover{
     font-size: 18px;
     line-height: 21px;
     color: #3956A2;
-
+    padding: 10px;
 }
 .handles a {
     color: #3956A2;
@@ -52,8 +217,7 @@ footer ul li a:hover{
 .handles a:hover {
     color: #060606;
     text-decoration-line: none;
-    font-size: 20px;
-    
+    font-size: 20px;   
 }
 .subscribe{
     width: 264px;
@@ -64,9 +228,7 @@ footer ul li a:hover{
     font-size: 18px;
     line-height: 21px;
     color: #000000;
-}
-.subscribe p{
-
+    padding: 10px;
 }
 .subscribe input[type="text"]{
     width: 259px;
